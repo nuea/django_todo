@@ -1,1 +1,1 @@
-# todo-django
+# django_todo
