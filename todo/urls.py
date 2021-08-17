@@ -2,5 +2,6 @@ from django.urls import path
 from todo import views
 
 urlpatterns = [
-    path("create/", views.CreateTodoAPIView.as_view(),name="todo_create")
+    path("create/", views.CreateTodoAPIView.as_view(),name="todo_create"),
+    path("all/", views.ListTodoAPIView.as_view(),name="todo_list")
 ]
